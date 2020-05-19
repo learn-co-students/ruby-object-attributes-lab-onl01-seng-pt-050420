@@ -1,0 +1,32 @@
+
+class Dog
+    def name
+        @name
+    end
+
+    def name= (dog_name)
+        @name = dog_name
+    end
+
+    def breed
+        @breed
+    end
+
+    def breed=(dog_breed)
+        @breed = dog_breed
+    end
+
+    # def breed
+    #    breed
+    # end
+   
+  
+end
+
+fido = Dog.new
+fido.name = "fido"
+fido.name
+
+beagle = Dog.new
+beagle.breed = "Beagle"
+fido.breed
